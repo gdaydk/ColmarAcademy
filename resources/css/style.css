@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    background-color: white;
+    z-index: 10;
+    height: 64px;
+    border-bottom: solid 1px black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 1rem;
+    width: 100%;
+}
+
+.site-logo{
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.site-logo img{
+    height: 3rem;
+    width: auto;
+}
+
+#colmar{
+    font-weight: bolder;
+}
+
+#academy{
+    font-weight: regular;
+    color: grey;
+}
+
+nav{
+}
+
+header nav li{
+    display: inline;
+    margin: 0 8px;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    padding-top: 64px;
+}
+
+.top-banner{
+    background-color: grey;
+    height: 200px;
+}
